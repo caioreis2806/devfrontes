@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <title>Recrutamento online</title>
+        <meta charset="UTF-8">  
+      </head>
+    <body>
+        <header>
+            <h1>Recrutamento Online<h1/>
+
+        </header>
+         <main>
+           <section>
+             <h2>Cadastre o seu currículo</h2>
+            <form action="#" method="post" >
+                <p>Preencha o firmulário abaixo para se candidatar a vaga</p>
+                <fieldset> 
+                <legend>Dados pessoais</legend>
+                   
+                 <div>
+                <label for "nome_id">Nome completo:</label>
+                <input id="nome_id" name="nome" type="text">
+                 </div> 
+                <p></p>
+                 <div>    
+                <label for="telefone_id">Tefone:</label>
+                <input id="telefone_id" name= "Telefone" type="tel">
+                </div>
+                <p></p>
+                <div>
+                    <label for="email_id">Email:</label>
+                    <input id="email_id" name="email" type="email">
+                </div>
+                <p></p>
+                <div>
+                    <label for=" data_nasc_id">Data de nascimento:</label>
+                    <input id="data_nasc_id" type="date">
+                </div>
+
+                <fieldset>
+                    <legend>Endereço</legend>
+
+                    <div>
+                        <label for="Loradouro_id">Logradouro:</label>
+                        <input id="Logradouro_id" name="cidade" type="text">
+                    </div>
+
+                    <div>
+                        <label for="cidade_id">Cidade:</label>
+                        <input id="cidade_id" name="cidade" type="text">
+                    </div>
+
+                    <div>
+                        <label for="numero_id">Número:</label>
+                        <input id="numero_id" name="numero" type="number">
+                    </div>
+                </fieldset>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Resumo</legend>
+                    <div>
+                        <label for="resumo_id">Fale sobre você</label>
+                        <textarea id="resumo_id"
+                                  name="resumo"></textarea>
+                    </div>
+                
+                </fieldset>
+                <legend>Nível desejado</legend>
+                <div>
+                    <input id="nivel_estagio_id" 
+                           name="nivel" 
+                           type="radio"
+                           value="estagio">
+                    <label for="nivel_estagio_id">Estagio</label>
+                </div>
+                <div>
+                    <input id="nivel_junior_id" 
+                           name="nivel" 
+                           type="radio"
+                           value="junior">
+                    <label for="nivel_junior_id">Júnior</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tecnologias que domina:</legend>
+                <div>
+                    <input id="tec_css_id"
+                           name="Tecnologias"
+                           type="checkbox"
+                           value="css">
+                    <label for="tec_css_id">CSS</label>
+
+                </div>
+                <div>
+                    <input id="tec_js_id"
+                           name="Tecnologias"
+                           type="checkbox"
+                           value="css">
+                    <label for="tec_js_id">js</label>
+
+                </div>
+                
+                <fieldset>
+                    <legend>Grau de instrução</legend>
+                    <div>
+                        <label for="escolaridade_id">Escolaridade:</label>
+                        <select id="escolaridade_id" name="escolaridade">
+                            <option value="medio">Ensino médio</option>
+                            <option value="graduacao">Graduação médio</option>
+                            <option value="championsleague">Champions League</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <button type="reset">Limpar dados</button>
+                    <button type="submit">Enviar candidatura</button>
+                </div>
+
+            
+            </form>
+            </section>
+         </main>
+          <footer>
+            <p>Todos os direitos reservados &copy;</p>
+          </footer>
+    </body>    
+</html>
