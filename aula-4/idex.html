@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Encontre sua inspiração</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>Encontre sua inspiração</h1>
+        </header>
+
+        <main>
+            <section>
+                <h2>Quem te inspira hoje em dia?</h2>
+
+                <form action="https://postman-echo.com/post" method="post" enctype="multipart/form-data">
+
+                    <p>Preencha os campos abaixo com base na sua escolha</p>
+
+                    <fieldset>
+                        <legend>No mundo do esporte, qual atleta você tem como inspiração</legend>
+                        <br>
+
+                        <div>
+                            <label for="nome_id">Quem te inspira:</label>
+                            <input
+                                id="nome_id"
+                                name="nome"
+                                type="text"
+                                placeholder="Ayrton Senna"
+                                pattern="[A-Za-zÀ-ÿ ]{3,50}"
+                                title="Digite um nome contendo apenas letras e espaços, entre 3 e 50 caracteres"
+                                required
+                            > *
+                        </div>
+
+                        
+
+                        <br>
+
+                        <fieldset>
+                            <legend>Inspiração</legend>
+
+                            <div>
+                                <label for="resumo_id">
+                                    Fale o porquê esse atleta te inspira:
+                                </label>
+
+                                <br>
+
+                                <textarea
+                                    id="resumo_id"
+                                    name="resumo"
+                                    rows="5"
+                                    cols="50"
+                                ></textarea>
+                            </div>
+                        </fieldset>
+
+                        <br>
+
+                        <fieldset>
+                            <legend>Objetivos</legend>
+
+                            <div>
+                                <label for="comum_id">
+                                    O que esse atleta tem que você sente que ainda te falta?
+                                </label>
+
+                                <br>
+
+                                <textarea
+                                    id="comum_id"
+                                    name="comum"
+                                    rows="5"
+                                    cols="50"
+                                ></textarea>
+                            </div>
+                        </fieldset>
+
+                        <br>
+
+   <!-- Pergunta para a pessoa -->
+<fieldset>
+    <legend>Se pudesse conversar com esse atleta, o que perguntaria?</legend>
+
+    <div>
+        <label for="pergunta_id">
+            Imagine que você teve a oportunidade de conversar pessoalmente com ela:
+        </label>
+
+                <br>
+
+                  <textarea
+                      id="pergunta_id"
+                     name="pergunta"
+                     rows="5"
+                      cols="50"
+                     placeholder="Ex: Com tantos concorrentes, o que fazia você se diferenciar?"
+                ></textarea>
+               </div>
+         </fieldset>
+
+
+                        <br>
+
+                        <fieldset>
+                            <legend>CQuanto tempo você acha que irá levar para desenvolver a característica que mais admira nesse atleta?.</legend>
+
+                            <div>
+                                <input
+                                    id="tempo_1_id"
+                                    name="tempo"
+                                    type="radio"
+                                    value="1_ano"
+                                >
+                                <label for="tempo_1_id">1 ano</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    id="tempo_2_id"
+                                    name="tempo"
+                                    type="radio"
+                                    value="2_anos"
+                                >
+                                <label for="tempo_2_id">2 anos</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    id="tempo_5_id"
+                                    name="tempo"
+                                    type="radio"
+                                    value="5_anos"
+                                >
+                                <label for="tempo_5_id">5 anos</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    id="tempo_10_id"
+                                    name="tempo"
+                                    type="radio"
+                                    value="10_anos"
+                                >
+                                <label for="tempo_10_id">10 anos</label>
+                            </div>
+                        </fieldset>
+
+                        <br>
+
+                        <fieldset>
+                            <legend>O que acha que ainda falta para isso?</legend>
+
+                            <div>
+                                <input
+                                    id="falta_dinheiro_id"
+                                    name="falta"
+                                    type="checkbox"
+                                    value="dinheiro"
+                                >
+                                <label for="falta_dinheiro_id">Determinação</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    id="falta_conhecimento_id"
+                                    name="falta"
+                                    type="checkbox"
+                                    value="conhecimento"
+                                >
+                                <label for="falta_conhecimento_id">Conhecimento</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    id="falta_confianca_id"
+                                    name="falta"
+                                    type="checkbox"
+                                    value="confianca"
+                                >
+                                <label for="falta_confianca_id">Confiança</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    id="falta_disciplina_id"
+                                    name="falta"
+                                    type="checkbox"
+                                    value="disciplina"
+                                >
+                                <label for="falta_disciplina_id">Disciplina</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    id="falta_oportunidades_id"
+                                    name="falta"
+                                    type="checkbox"
+                                    value="oportunidades"
+                                >
+                                <label for="falta_oportunidades_id">Oportunidades</label>
+                            </div>
+                       
+                           
+                        </fieldset>
+
+                        <br>
+                            <fieldset>
+                              <legend>Crie uma imagem com base na sua inspiração:</legend>
+
+                           <a href="https://gemini.google.com/?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330524&gbraid=0AAAAApk5Bhnpz6449UpMJzAS95z3ZZ9wy&gclid=EAIaIQobChMI7bKgubzilgMV3U5IAB0caypHEAAYASAAEgIaifD_BwE" target="_blank">
+                                Acessar Site para criação de imagens com IA (Requer Login)
+                           </a>
+                              </fieldset>
+
+                        <br>
+
+                        
+                         <fieldset>
+                           <legend>Anexe o que criou</legend>
+                        <div>
+                            <label for="foto_id">Anexe o arquivo que criou:</label>
+                            <input
+                                id="foto_id"
+                                name="foto"
+                                type="file"
+                                accept="image/*"
+                            >
+                        </div>
+                     </fieldset>
+
+                     
+                        <br>
+
+                        <fieldset>
+                            <legend>Avalie o quanto gostou desse form:</legend>
+
+                            <div>
+                                <label for="feedback_id">Feedback</label>
+
+                                <select id="feedback_id" name="feedback">
+                                    <option value="bem_mequetrefe">Muito bom</option>
+                                    <option value="mediano">Mediano</option>
+                                    <option value="bom">mais ou menos em...</option>
+                                    <option value="parabens_bom_demais">Melhor trancar o curso, meu patrão... </option>
+                                </select>
+                            </div>
+                        </fieldset>
+
+                        <br>
+
+                        <div>
+                            <button type="reset">Limpar dados</button>
+                            <button type="submit">Enviar dados</button>
+                        </div>
+
+                    </fieldset>
+
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Todos os direitos reservados Caio Inc &copy;</p>
+        </footer>
+    </body>
+</html>
