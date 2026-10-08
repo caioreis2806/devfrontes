@@ -64,3 +64,87 @@ footer{
     margin: 1rem;
     width: 4rem;
 }
+
+.container-flex {
+    display: flex;
+    background-color: white;
+    gap: 0.5rem;
+    height: 10rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+.container-flex.item {
+    padding: 0.5rem;
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+
+#item2 {
+    flex-grow: 2;
+}
+
+#item3 {
+    flex-grow: 3;
+
+}
+
+.container-grid{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-auto-rows: minmax(4rem, auto);
+    gap: 0.5rem;
+}
+
+.container-grid .item {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container-grid-area {
+    display: grid;
+    grid-template-areas: 
+        "cabecalho cabecalho"
+        "principal artigo"
+        "rodape rodape";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 4fr 0.5fr;
+    height: 300px;
+
+}
+
+.contaier-grid-area div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-grid-area .item-cabecalho {
+    grid-area: cabecalho;
+    background-color: lightcoral;
+}
+
+.container-grid-area .item-principal {
+    grid-area: principal;
+    background-color: purple;
+}
+
+.container-grid-area .item-artigo {
+    grid-area: artigo;
+    background-color: #0088ff;
+}
+
+.container-grid-area .item-rodape {
+    grid-area: rodape;
+    background-color: #ff004c;
+
+}
+    
