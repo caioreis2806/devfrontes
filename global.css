@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  max-width: 50rem;
+  margin: 4rem auto;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+footer p {
+  margin-top: 1rem;
+  padding: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 1.2rem;
+}
+
+input[type="text"], 
+input[type="number"],
+input[type="email"] {
+  padding: 0.8rem;
+  width: 100%;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin-top: 1.6rem;
+}
+
+.oculto {
+  display: none;
+}
+
+.sucesso {
+  background-color: #ffe08a;
+  font-weight: bold;
+}
+
+.erro {
+  color: #8a1c1c;
+  background-color: #ffe6e6;
+}
