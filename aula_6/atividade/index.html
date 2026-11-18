@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/global.css">
+  <script src="./scripts/index.js" defer></script>
+  <title>Ayrton Senna - História</title>
+</head>
+<body>
+  <header>
+    <h1>Ayrton Senna</h1>
+    <p>🏆 Conheça a história de um dos maiores pilotos da Fórmula 1 🏎️ </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Equipes de Ayrton Senna</h2>
+      <p>Todas as equipes que o lendário correu.</p>
+      
+      <div class="container-equipes">
+        <div class="equipe"><h3>Toleman</h3>
+          <p>1984</p><p>Primeira equipe de Senna na Fórmula 1.</p></div>
+        <div class="equipe"><h3>Lotus</h3><p>1985 a 1987</p><p>Conquistou suas primeiras vitórias.</p></div>
+        <div class="equipe"><h3>McLaren</h3><p>1988 a 1993</p><p>Conquistou seus três títulos mundiais.</p></div>
+        <div class="equipe"><h3>Williams</h3><p>1994</p><p>Sua última equipe na Fórmula 1.</p></div>
+      </div>
+    
+    </section>
+
+    <section>
+      <h2>O que você já conhecia sobre Senna?</h2>
+      <p>Clique nos botões para marcar os fatos que você já sabia.</p>
+      <div class="container-historia">
+        <div class="card" id="estreia"><h3>Estreia em 1984</h3><p>Senna estreou na Fórmula 1 pela Toleman.</p><button onclick="marcar('estreia')">Eu já sabia</button></div>
+        <div class="card" id="primeira-vitoria"><h3>Primeira vitória</h3><p>Venceu pela primeira vez no GP de Portugal de 1985.</p><button onclick="marcar('primeira-vitoria')">Eu já sabia</button></div>
+        <div class="card" id="titulo-1988"><h3>Campeão em 1988</h3><p>Conquistou seu primeiro título com a McLaren MP4/4.</p><button onclick="marcar('titulo-1988')">Eu já sabia</button></div>
+        <div class="card" id="tres-titulos"><h3>Tricampeão mundial</h3><p>Foi campeão em 1988, 1990 e 1991.</p><button onclick="marcar('tres-titulos')">Eu já sabia</button></div>
+      </div>
+      <p id="resultado">Você já conhecia 0 de 4 fatos.</p>
+      <button class="limpar" onclick="limparSelecoes()">Limpar seleções</button>
+    </section>
+  </main>
+
+  <footer><p>Projeto de HTML, CSS (Grid e Flex) e JavaScript sobre Ayrton Senna.</p></footer>
+</body>
+</html>
